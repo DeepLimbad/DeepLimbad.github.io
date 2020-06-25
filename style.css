@@ -1,0 +1,94 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: Century Gothic;	
+}
+header{
+	background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("bg.jpg");
+    height: 570vh;
+	background-size: cover;
+	background-position: center;
+
+	}
+
+#sidebar{
+position:fixed;
+width:250px;
+top:100px;
+left:0;
+bottom:0;
+background:black;
+	
+}
+
+#sidebar a{
+	display:block;
+color:#bbb;
+font-size:20px;
+padding:10px 20px;
+display:inline-block;
+text-decoration:none;
+font-family:"Rubik";
+
+}
+
+#sidebar a:hover{
+	margin-left:20px;
+	transition:0.4s;
+	color:#fff;
+	}
+
+ul{
+float: right;
+margin-top:20px;
+list-style-type: none;
+}
+
+ul li{
+	display: inline-block;
+}
+
+ul li a{
+	text-decoration: none;
+	color: #fff;
+	padding: 5px 20px;
+	border: 1px solid transparent;
+	transition: 0.6s ease;
+	
+}
+
+ul li a:hover{
+	background-color: #fff;
+	color: #000;
+}
+ul li.active a{
+	background-color: #fff;
+	color: #000;
+}
+
+
+.logo img{
+	float: left;
+	width: 300px;S
+	height: auto;
+}
+
+h1
+{
+	padding-left:270px;
+	color:white ;
+	padding-top:35px;
+	font-family: Arial, Helvetica, sans-serif;
+	
+}
+
+p{
+	color:white;
+	padding-top:10px;
+	padding-left:270px;
+	padding-right:30px;
+	font-size:15px;
+	font-family: Arial, Helvetica, sans-serif;
+
+
+}
